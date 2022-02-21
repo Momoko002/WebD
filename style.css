@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.firstview h1{
+    font-size: 64px;
+    text-align: center;
+    padding-top: 200px;
+    color:#000000;
+}
+
+.firstview{
+    background-color: #FDE976;
+    height: 500px;
+}
+
+.name{
+    padding: 180px;
+}
+
+.name h2{
+    font-size: 64px;
+    letter-spacing: 0.1em;
+    margin-bottom: 30px;
+}
+
+.profile-text h2{
+    margin-top: 100px;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+}
+
+.profile-text p{
+    font-size: 16px;
+    margin-top: 24px;
+    font-weight: bold;
+}
+
+.profile img{
+    width: 480px;
+    height: 480px;
+}
+
+.profile .profile-text{
+    width: 500px;
+    float: left;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.favorite h2{
+    font-size: 64px;
+}
+
+
+
+.favorite-content h3{
+    font-size: 20px;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.favorite-content p{
+    font-size: 16px;
+    margin-top: 32px;
+    text-align: center;
+    line-height: 200%;
+    font-weight: bold;
+}
+
+.favorite-content img{
+    width: 200px;
+    height: 200px;
+}
+
+.favorite-content{
+    width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.favorite-contents{
+    margin-top: 80px;
+    display: flex;
+}
+
+.favorite{
+    background-color: #FDE976;
+    padding: 180px;
+}
+
+
+.house h2{
+    font-size: 64px;
+    letter-spacing: 0.1em;
+}
+
+.house h3{
+    font-size: 33px;
+    margin-top: 50px;
+}
+.house-picture img{
+    width: 200px;
+    height: 150px;
+}
+
+.love{
+    padding: 180px;
+}
+
+.contact h2{
+    font-size: 64px;
+    letter-spacing: 0.1em;
+}
+.contact p{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contact a{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    background-color: #812B04;
+    color: #fff;
+    width: 200px;
+    line-height: 80px;
+    display: inline-block;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.contact{
+    background-color: #FDE976;
+    padding: 180px;
+}
+
+.contact .sns{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+header{
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 180px;
+    position: fixed;
+    width: 100vw;
+}
+
+header p{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header ul{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+header a{
+    font-size: 16px;
+    font-weight: bold;
+    color:#000000;
+}
+
+
+
